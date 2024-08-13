@@ -19,7 +19,10 @@
   font-family: "poppins-regular";
   src: url("./assets/fonts/font1.woff2");
 }
-
+.swiper {
+  width: 600px;
+  height: 600px;
+}
 /* GENERAL COLORS */
 :root {
   --black: #000000;

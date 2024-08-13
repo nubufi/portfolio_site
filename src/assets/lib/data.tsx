@@ -1,4 +1,10 @@
 import postgresicon from "../../assets/icons/postgresql.png";
+import mysqlicon from "../../assets/icons/mysql.svg";
+import azureicon from "../../assets/icons/azure.svg";
+import kubernetesicon from "../../assets/icons/kubernetes.webp";
+import dockericon from "../../assets/icons/docker.png";
+import jenkinsicon from "../../assets/icons/jenkins.png";
+import awsicon from "../../assets/icons/aws.webp";
 import pythonicon from "../../assets/icons/python.svg";
 import golangicon from "../../assets/icons/golang.png";
 import redisicon from "../../assets/icons/redis.png";
@@ -16,6 +22,16 @@ import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
 import nextjsiconwhite from "../../assets/icons/nextjsiconwhite.svg";
+import cybersecCert from "../../assets/icons/certificates/cybersec.jpg";
+import dockerCert from "../../assets/icons/certificates/docker.jpg";
+import hackingCert from "../../assets/icons/certificates/ethical-hacking.jpg";
+import golangCert from "../../assets/icons/certificates/golang.jpg";
+import jsCert from "../../assets/icons/certificates/javascript.jpg";
+import kubBegCert from "../../assets/icons/certificates/kubernetes-beginner.jpg";
+import mlCert from "../../assets/icons/certificates/ml.jpg";
+import nextJsCert from "../../assets/icons/certificates/nextjs.jpg";
+import webSecCert from "../../assets/icons/certificates/web-security.jpg";
+import grpcCert from "../../assets/icons/certificates/grpc.jpg";
 import { GoHome, GoPerson, GoStack, GoProject } from "react-icons/go";
 import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 
@@ -143,6 +159,46 @@ export const liveTickerData = {
 	},
 } as const;
 
+export const skillsDataDevOps = [
+	{
+		skillsTitle: "DevOps",
+		skills: [
+			{
+				title: "Kubernetes",
+				hash: "#Kubernetes",
+				icon: kubernetesicon,
+				color: "#1572B6",
+			},
+
+			{
+				title: "Docker",
+				hash: "#Docker",
+				icon: dockericon,
+				color: "#1572B6",
+			},
+			{
+				title: "Jenkins",
+				hash: "#Jenkins",
+				icon: jenkinsicon,
+				color: "#38B2AC",
+			},
+			{
+				title: "AWS",
+				hash: "#AWS",
+				icon: awsicon,
+				color: "#F1662A",
+			},
+			{
+				title: "Azure",
+				hash: "#Azure",
+				icon: azureicon,
+				color: "#1572B6",
+			},
+
+
+		],
+	},
+] as const;
 export const skillsDataWeb = [
 	{
 		skillsTitle: "WebDevelopment",
@@ -177,6 +233,11 @@ export const skillsDataWeb = [
 				hash: "#htmx",
 				icon: htmxicon,
 				color: ["#000000", "#FFFFFF"],
+			}, {
+				title: "API",
+				hash: "#API",
+				icon: apiicon,
+				color: "#FF0000",
 			},
 
 
@@ -227,6 +288,12 @@ export const skillsDataCMS = [
 				color: "#007ACC",
 			},
 			{
+				title: "MySQL",
+				hash: "#MySQL",
+				icon: mysqlicon,
+				color: "#007ACC",
+			},
+			{
 				title: "MongoDB",
 				hash: "#MongoDB",
 				icon: mongodbicon,
@@ -248,6 +315,7 @@ export const navLinks = [
 	{ de: "Fähigkeiten", en: "Skills", hash: "#skills", icon: GoStack },
 	{ de: "Projekte", en: "Projects", hash: "#projects", icon: GoProject },
 	{ de: "Über mich", en: "About me", hash: "#about-me", icon: GoPerson },
+	{ de: "Zertifikate", en: "Certificates", hash: "#certificates", icon: GoPerson },
 ] as const;
 
 
@@ -286,6 +354,24 @@ export const quotesData = [
 	},
 ] as const;
 
+export const certificatesData = {
+	title: "Zertifikate",
+	title_EN: "Certificates",
+	description: "Die Zertifikate, die ich erworben habe.",
+	description_EN: "The certificates I have achieved.",
+	certificates: [
+		{alt: "Cybersecurity", src: cybersecCert},
+		{alt: "Docker", src: dockerCert},
+		{alt: "Ethical Hacking", src: hackingCert},
+		{alt: "Golang", src: golangCert},
+		{alt: "JavaScript", src: jsCert},
+		{alt: "Kubernetes Beginner", src: kubBegCert},
+		{alt: "Machine Learning", src: mlCert},
+		{alt: "Next.js", src: nextJsCert},
+		{alt: "Web Security", src: webSecCert},
+		{alt: "Grpc", src: grpcCert},
+	]
+};
 export const aboutMeData = {
 	title: "Über mich",
 	title_EN: "About me",
