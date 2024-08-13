@@ -71,6 +71,27 @@ export const projectsData = [
 		},
 	},
 	{
+		title: "Geotechnical Expert Map",
+		description:
+			"Dies ist eine Karte, die die geotechnischen Experten in der Türkei zeigt. Die Karte wurde mit Next.js und Tailwind CSS entwickelt. Das Backend wird von Supabase betrieben.",
+		description_EN:
+			"This is a map to show the geotechnical experts in Turkey. The map is developed with Next.js and Tailwind CSS. The backend is powered by Supabase.",
+		technologies: [
+			{ name: "Html", icon: htmlicon },
+			{ name: "CSS", icon: cssicon },
+			{ name: "TypeScript", icon: typescripticon },
+			{ name: "Tailwind", icon: tailwindcssicon },
+		],
+		githuburl: "",
+		githubicon: FiGithub,
+		colors: {
+			main: "main-btn",
+			second: "secondary-btn",
+			icon: "white",
+			projectcolor: "#70B9BE",
+		},
+	},
+	{
 		title: "Shortify",
 		description:
 			"Shortify ist ein einfacher, effizienter URL-Shortener, der mit Golang und htmx entwickelt wurde. Er ermöglicht es Benutzern, schnell kurze, teilbare Links aus langen URLs zu erstellen, mit dynamischen Frontend-Interaktionen. Perfekt für alle, die einen leichtgewichtigen URL-Shortening-Service bereitstellen möchten. Ich habe es als Nebenprojekt entwickelt.",
