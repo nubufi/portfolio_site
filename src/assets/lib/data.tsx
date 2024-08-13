@@ -47,9 +47,9 @@ export const projectsData = [
 	{
 		title: "Soil Prime",
 		description:
-			"SoilPrime ist eine anspruchsvolle cloudbasierte Plattform, die speziell für geotechnische Ingenieuranwendungen entwickelt wurde. Die Plattform beherbergt derzeit sechs spezialisierte Anwendungen, die sorgfältig ausgearbeitet wurden, um verschiedene Aspekte der geotechnischen Analyse und des Designs abzudecken. Das Frontend wurde mit Next.js und Tailwind CSS entwickelt und bietet eine nahtlose und reaktionsschnelle Benutzererfahrung. Jede Anwendung wird als Microservice bereitgestellt, um Skalierbarkeit und Wartbarkeit zu gewährleisten. Die Backend-Dienste werden von einer Kombination aus Go und Python betrieben, wodurch die Stärken beider Sprachen für Hochleistungsberechnungen und eine robuste Datenverarbeitung genutzt werden. Ich bin der Teamleiter und Full-Stack-Entwickler dieses Projekts.",
+			"SoilPrime ist eine anspruchsvolle cloudbasierte Plattform, die speziell für geotechnische Ingenieuranwendungen entwickelt wurde. Die Plattform beherbergt derzeit sechs spezialisierte Anwendungen, die sorgfältig ausgearbeitet wurden, um verschiedene Aspekte der geotechnischen Analyse und des Designs abzudecken. Das Frontend wurde mit Next.js und Tailwind CSS entwickelt und bietet eine nahtlose und reaktionsschnelle Benutzererfahrung. Jede Anwendung wird als Microservice bereitgestellt, um Skalierbarkeit und Wartbarkeit zu gewährleisten. Die Backend-Dienste werden von einer Kombination aus Go und Python betrieben, wodurch die Stärken beider Sprachen für Hochleistungsberechnungen und eine robuste Datenverarbeitung genutzt werden. Ich bin der Teamleiter und Full-Stack-Entwickler dieses Projekts. Überprüfen Sie es unter https://tr.soilprime.com.",
 		description_EN:
-			"SoilPrime is a sophisticated cloud-based platform designed specifically for geotechnical engineering applications. The platform currently hosts six specialized applications, each meticulously crafted to address various aspects of geotechnical analysis and design. The frontend is developed using Next.js and Tailwind CSS, offering a seamless and responsive user experience. And each application is deployed as a microservice, ensuring scalability and maintainability. The backend services are powered by a combination of Go and Python, leveraging the strengths of both languages for high-performance computation and robust data handling. I am the team leader as full stack developer of this project.",
+			"SoilPrime is a sophisticated cloud-based platform designed specifically for geotechnical engineering applications. The platform currently hosts six specialized applications, each meticulously crafted to address various aspects of geotechnical analysis and design. The frontend is developed using Next.js and Tailwind CSS, offering a seamless and responsive user experience. And each application is deployed as a microservice, ensuring scalability and maintainability. The backend services are powered by a combination of Go and Python, leveraging the strengths of both languages for high-performance computation and robust data handling. I am the team leader as full stack developer of this project. Check it from https://tr.soilprime.com",
 		technologies: [
 			{ name: "Html", icon: htmlicon },
 			{ name: "CSS", icon: cssicon },
@@ -73,9 +73,9 @@ export const projectsData = [
 	{
 		title: "Geotechnical Expert Map",
 		description:
-			"Dies ist eine Karte, die die geotechnischen Experten in der Türkei zeigt. Die Karte wurde mit Next.js und Tailwind CSS entwickelt. Das Backend wird von Supabase betrieben.",
+			"Dies ist eine Karte, die die geotechnischen Experten in der Türkei zeigt. Die Karte wurde mit Next.js und Tailwind CSS entwickelt. Das Backend wird von Supabase betrieben. Überprüfen Sie es unter https://experts.soilprime.com.",
 		description_EN:
-			"This is a map to show the geotechnical experts in Turkey. The map is developed with Next.js and Tailwind CSS. The backend is powered by Supabase.",
+			"This is a map to show the geotechnical experts in Turkey. The map is developed with Next.js and Tailwind CSS. The backend is powered by Supabase. Check it from https://experts.soilprime.com",
 		technologies: [
 			{ name: "Html", icon: htmlicon },
 			{ name: "CSS", icon: cssicon },
