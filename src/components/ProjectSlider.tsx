@@ -2,10 +2,10 @@ import bannerBg from "../assets/img/bannerbg.webp";
 import React, { useRef } from "react";
 import Button from "./Button";
 import LiveTicker from "./ParallaxText";
-import { projectsData, toastMessages } from "../assets/lib/data";
+import { projectsData } from "../assets/lib/data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectCards, Pagination } from "swiper/modules";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import { useSectionInView } from "../assets/lib/hooks";
 import { useLanguage } from "../context/language-context";
@@ -25,13 +25,6 @@ const ProjectSlider: React.FC = () => {
   });
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
-  const notifyServerRequest = () => {
-    if (language === "DE") {
-      toast.info(toastMessages.loadingProject.de);
-    } else {
-      toast.info(toastMessages.loadingProject.en);
-    }
-  };
 
   return (
     <React.Fragment>
@@ -100,7 +93,7 @@ const ProjectSlider: React.FC = () => {
                   key={index}
                   className="quote-outer-container bg-[--darkblue] text-[--white] flex flex-row justify-between  rounded-2xl p-20 text-left max-lg:hidden "
                 >
-                  <div className=" w-[55%] flex flex-col gap-12 justify-between ">
+                  <div className="flex flex-col gap-12 justify-between ">
                     <h2>{project.title}</h2>
 
                     <p className="text-white">
@@ -129,14 +122,6 @@ const ProjectSlider: React.FC = () => {
                     </div>
                     <div className="buttons flex gap-10">
                       <Button
-                        label="Live Demo"
-                        link={project.deploymenturl}
-                        iconSVG={project.deploymenticon}
-                        buttoncolor={project.colors.main}
-                        iconcolor={project.colors.icon}
-                        onClick={notifyServerRequest}
-                      />
-                      <Button
                         label="Github Repository"
                         link={project.githuburl}
                         iconSVG={project.githubicon}
@@ -144,15 +129,6 @@ const ProjectSlider: React.FC = () => {
                         iconcolor={project.colors.icon}
                       />
                     </div>
-                  </div>
-
-                  <div className="right-content relative h-[40rem] overflow-hidden rounded-xl w-[40%] transition-all duration-200 shadow-2xl">
-                    <img
-                      src={project.image}
-                      alt={`${project.title}-project-mockup`}
-                      className={`w-full h-auto transition-all duration-[6000ms] transform opacity-100 hover:translate-y-[-50%] 
-                      `}
-                    />
                   </div>
                 </SwiperSlide>
               ))}
@@ -163,19 +139,7 @@ const ProjectSlider: React.FC = () => {
                 className="bg-darkblue flex flex-col gap-10 w-[80%] h-full  border-lightblue border-[0.4rem] p-8 rounded-xl mb-10 min-[1024px]:hidden max-lg:w-[90%]"
               >
                 <h2 className="text-white">{project.title}</h2>
-                <img
-                  src={project.image}
-                  alt={project.image}
-                  className="h-[35vh] w-full object-cover object-top rounded-3xl"
-                />
                 <div className="buttons flex gap-10 max-lg:flex-col">
-                  <Button
-                    label="Live Demo"
-                    link={project.deploymenturl}
-                    iconSVG={project.deploymenticon}
-                    buttoncolor={project.colors.main}
-                    iconcolor={project.colors.icon}
-                  />
                   <Button
                     label="Github Repository"
                     link={project.githuburl}
