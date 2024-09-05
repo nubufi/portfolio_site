@@ -111,6 +111,27 @@ export const projectsData = [
 		},
 	},
 	{
+		title: "RankEdge",
+		description:
+			"RankEdge ist ein Echtzeit-Leadboard-System, das mit Go entwickelt und von Redis betrieben wird. Es unterstützt sofortige Ranglistenaktualisierungen, effiziente Abfragen und Skalierbarkeit für Millionen von Nutzern. Ideal für Gaming und Wettbewerbe gewährleistet RankEdge niedrige Latenzzeiten und hohe Verfügbarkeit für nahtlose Benutzererfahrungen.",
+		description_EN:
+			"RankEdge is a real-time leaderboard system built with Go and powered by Redis. It supports instant ranking updates, efficient queries, and scalability for millions of users. Ideal for gaming and competitions, RankEdge ensures low-latency and high availability for seamless user experiences.",
+		technologies: [
+			{ name: "Golang", icon: golangicon },
+			{ name: "MySQL", icon: mysqlicon },
+			{ name: "Redis", icon: redisicon },
+			{ name: "Docker", icon: dockericon },
+		],
+		githuburl: "https://github.com/nubufi/RankEdge",
+		githubicon: FiGithub,
+		colors: {
+			main: "main-btn",
+			second: "secondary-btn",
+			icon: "white",
+			projectcolor: "#70B9BE",
+		},
+	},
+	{
 		title: "GoCommerce",
 		description:
 			"GoCommerce ist eine leistungsstarke und skalierbare E-Commerce-Backend-Anwendung, die entwickelt wurde, um die Komplexität moderner Online-Handelsplattformen zu bewältigen. Entwickelt mit Go, liegt der Schwerpunkt dieses Projekts auf hoher Leistung, Sicherheit und Modularität. Das Backend ist darauf ausgelegt, nahtlose Benutzererfahrungen und effizientes Transaktionsmanagement zu bieten, was es zu einer idealen Lösung für Unternehmen macht, die ihre Online-Präsenz skalieren möchten. Es umfasst die Benutzerauthentifizierung sowie die Verwaltung von Produkten, Bestellungen und Einkaufswagen, einschließlich Caching.",
