@@ -26,6 +26,7 @@ import cybersecCert from "../../assets/icons/certificates/cybersec.jpg";
 import dockerCert from "../../assets/icons/certificates/docker.jpg";
 import hackingCert from "../../assets/icons/certificates/ethical-hacking.jpg";
 import golangCert from "../../assets/icons/certificates/golang.jpg";
+import blockchainCert from "../../assets/icons/certificates/blockchain.jpg";
 import jsCert from "../../assets/icons/certificates/javascript.jpg";
 import kubBegCert from "../../assets/icons/certificates/kubernetes-beginner.jpg";
 import mlCert from "../../assets/icons/certificates/ml.jpg";
@@ -395,6 +396,7 @@ export const certificatesData = {
 		{ alt: "Next.js", src: nextJsCert },
 		{ alt: "Web Security", src: webSecCert },
 		{ alt: "Grpc", src: grpcCert },
+		{ alt: "Blockchain", src: blockchainCert },
 	]
 };
 export const aboutMeData = {
