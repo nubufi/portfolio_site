@@ -29,6 +29,7 @@ import golangCert from "../../assets/icons/certificates/golang.jpg";
 import blockchainCert from "../../assets/icons/certificates/blockchain.jpg";
 import jsCert from "../../assets/icons/certificates/javascript.jpg";
 import kubBegCert from "../../assets/icons/certificates/kubernetes-beginner.jpg";
+import kubCert from "../../assets/icons/certificates/kubernetes.jpg";
 import mlCert from "../../assets/icons/certificates/ml.jpg";
 import nextJsCert from "../../assets/icons/certificates/nextjs.jpg";
 import webSecCert from "../../assets/icons/certificates/web-security.jpg";
@@ -413,6 +414,7 @@ export const certificatesData = {
 		{ alt: "Golang", src: golangCert },
 		{ alt: "JavaScript", src: jsCert },
 		{ alt: "Kubernetes Beginner", src: kubBegCert },
+		{ alt: "Kubernetes", src: kubCert },
 		{ alt: "Machine Learning", src: mlCert },
 		{ alt: "Next.js", src: nextJsCert },
 		{ alt: "Web Security", src: webSecCert },
